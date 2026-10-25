@@ -4,12 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⤷ ゛my first site! ˎˊ˗</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sunshiney&display=swap" rel="stylesheet">
+  <style>
+            * { box-sizing: border-box; }
+            body {
+                margin: 0;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                line-height: 1.6;
+            }
+            header {
+                padding: 2rem 1.5rem;
+                text-align: center;
+            }
+            header h1 { margin: 0.0 .25rem; font-size: 1.9rem; }
+            header p { margin: 0; opacity: .9; }
+            
+            nav {
+                position: sticky;
+                top: 0;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            nav li { margin: 0; }
+            nav a {
+                display: block;
+                padding: .9rem 1.2rem;
+                font-size: .95rem;
+            }
+            nav a:hover
+            nav a:focus
+
+            main {
+                max-width: 780px;
+                margin: 0 auto;
+                padding: 2rem 1.5rem 3rem;
+            }
+            article, section {
+                padding: 1.5rem;
+                border-radius: 8px;
+                margin-bottom: 1.75rem;
+                box-shadow: 0 1px 3px rgba(0,0,0,.08);
+            }
+            h2 { margin-top: 0; }
+            h3 { margin-top: 0; }
+            figcaption { font-size: .875rem; }
+            footer {
+                text-align: center;
+                padding: 1.5rem;
+                font-size: .875rem;
+            }
+         </style>
 </head>
 <body>
-    <h1 style="font-size: xx-large; font-family: 'Sunshiney', cursive; color: #A1C973; text-align: center;">⤷ ゛hi, my name's max! ˎˊ˗</h1>
-    <p style="font-size: x-large; font-family:'Sunshiney', cursive; text-align: center;">welcome to my first website! :3</p>
+    <h1 style="font-size: xx-large; color: #A1C973; text-align: center;">⤷ ゛hi, my name's max! ˎˊ˗</h1>
+    <p style="font-size: x-large; text-align: center;">welcome to my first website! :3</p>
+     <!-- NAVIGATION -->
+        <nav aria-label="Main NAVIGATION">
+            <ul>
+                <li><a href="#likes">⤷ ゛likes</a></li>
+                <li><a href="#dislikes">⤷ ゛dislikes</a></li>
+                <li><a href="#dreams">⤷ ゛dreams</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <!-- ARTICLE -->
+             <article id="aboutme">
+                <h2>⤷ ゛a little about me ˎˊ˗</h2>
+                <figure>
+                    <img
+                    src="https://livability.com/wp-content/uploads/2026/05/iStock-1805797841-768x432.jpg.webp"
+                    alt="A sky view of downtown Muncie, Indiana">
+                    <figcaption>this is where i grew up: muncie, indiana, USA</figcaption>
+                </figure>
+                <p>
+                    my name is <b>max</b>, and i am an artist!
+                    my art ranges from digital realistic portraits of others, to landscape photography,
+                    to beautiful paintings on canvas, all the way to making beats on my computer.
+                    to know me is to know i love being creative, capturing the beauty of the world in any and all forms.
+                    i'm from indiana, USA, but currently reside in ohio, USA ♥ my favourite type of art to make is digital art using procreate!
+                </p>
+                <p>    
+                    my commissions are currently open!
+                </p>
+             </article>
+             
+             <!-- COMMISSION SECTION -->
+              <section id="commission">
+                <h2>⤷ ゛commission info ˎˊ˗</h2>
+                <p>these are the types of drawings i offer !</p>
+                <ul>
+                    <li>realistic portraits                 | <i>$45 USD</i></li>
+                    <li>stylised portraits                  | <i>$35 USD</i></li>
+                    <li>full-body realism                   | <i>$70 USD</i></li>
+                    <li>full-body stylised                  | <i>$60 USD</i></li>
+
+                    <li>complex posing                      | <i>+ $10 USD</i></li>
+                    <li>weapons/large accessories    | <i>+ $5 USD</i></li>
+                </ul>
+              </section>
+
+              <!-- CONTACT INFO -->
+               <section id="contact">
+                <h2>⤷ ゛contact me ˎˊ˗</h2>
+                <p>
+                    to reach out about my commissions, please either reach out to me on Instagram
+                    <a href="https://www.instagram.com/bugbrainzxp/" target="_blank" rel="noopener noreferrer">
+                        bugbrainzxp
+                    </a>
+                    or feel free to email me!
+                    <a href="mailto:bugbrainzxp@gmail.com">bugbrainzxp@gmail.com</a>
+                </p>
+               </section>
+               
+        </main>
+        
+        <footer>
+            <p>owned by bugbrainzxp - 2026</p>
+        </footer>
+    </body>
+</html>    
 </body>
 </html>
