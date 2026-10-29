@@ -1,19 +1,33 @@
-    * { box-sizing: border-box; }
+         * { box-sizing: border-box; }
     body {
         margin: 0;
         font-family: Georgia, 'Times New Roman', Times, serif;
         line-height: 1.6;
+        text-align: center;
+        background-color: black;
+        color: rgb(179, 167, 167);
+        border-width: 10px;
+        border-style: dotted;
+        border-color: #453e3e;
+    }
+    figure {
+        text-align: center;
+        color: #9c3940;
     }
     header {
         padding: 2rem 1.5rem;
         text-align: center;
     }
-
-    header h1 { margin: 0.0 .25rem; font-size: 1.9rem; }
-    header p { margin: 0; opacity: .9; }
-            
+    .topnav-centered {
+        background-color: rgb(99, 0, 15);
+        opacity: 70%;
+        overflow: -moz-hidden-unscrollable;
+        left: 32%;
+    }
+    a:any-link {
+        color: rgb(222, 207, 204);
+    }
     nav {
-        text-align: center;
         position: sticky;
         top: 0;
     }
@@ -24,15 +38,19 @@
         list-style: none;
         flex-wrap: wrap;
     }
-    nav li { margin: 0; }
+    nav li {
+        margin: 0;
+        list-style: none;
+    }
     nav a {
         display: block;
         padding: .9rem 1.2rem;
         font-size: .95rem;
+        list-style: none;
     }
     nav a:hover
     nav a:focus
-
+    
     main {
         max-width: 780px;
         margin: 0 auto;
@@ -40,15 +58,32 @@
     }
     article, section {
         padding: 1.5rem;
-        border-radius: 8px;
+        size: 10px;
         margin-bottom: 1.75rem;
         box-shadow: 0 1px 3px rgba(0,0,0,.08);
     }
-    h2 { margin-top: 0; }
-    h3 { margin-top: 0; }
+    h1 {
+        font-size: xx-large;
+        color: #9c3940;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 0;
+        color:rgb(237, 188, 196);
+    }
+    p {
+        border-radius: 20px;
+        border-width: 3px;
+        border-color:#440f12;
+        border-style: dotted;
+        box-sizing: border-box;
+    }
     figcaption { font-size: .875rem; }
     footer {
         text-align: center;
         padding: 1.5rem;
         font-size: .875rem;
+    }
+    ul {
+        list-style: none;
     }
